@@ -1,0 +1,18 @@
+custom-header:
+  version: 1.x
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
+
+bootstrap:
+  version: 1.x
+  css:
+    theme:
+      https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css: { type: external, minified: true }
+  js:
+    https://cdnjs:.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js: { type: external, minified: true }
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js: { type: external, minified: true }

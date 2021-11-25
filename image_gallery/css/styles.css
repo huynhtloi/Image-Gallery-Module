@@ -1,0 +1,67 @@
+.logo-banner-block {
+  text-align: right;
+  background-color: #F8F9FA;
+}
+
+.logo-banner-block .logo-icon {
+  border-style: ridge;
+}
+
+.primary-menu-block {
+  background-color: #F8F9FA;
+  border-style: ridge;
+}
+
+.block-image-gallery-sidebar-first-block,
+.block-image-gallery-sidebar-second-block,
+.block-image-gallery-sidebar-second-link-block {
+  border-color: #0c0d0e !important;
+  background-color: #F8F9FA !important;
+  border-style: ridge !important;
+}
+
+.section-text-link, .feature-text-link {
+  font-size: 1rem;
+}
+
+.first-description, .second-description {
+  border-style: ridge;
+}
+
+.main-content-banner .button-carousel-link {
+  margin-left: 15rem;
+}
+.left-button {
+  text-align: left;
+}
+.right-button {
+  text-align: right;
+}
+.center-button {
+  margin-left: 0;
+  margin-right: 0;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.mode-dark-styling {
+  color: black !important;
+}
+
+.mode-light-styling {
+  color: white !important;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 300px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

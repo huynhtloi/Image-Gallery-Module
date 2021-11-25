@@ -1,0 +1,6 @@
+entity.banner.collection:
+  title: 'Banner list'
+  route_name: entity.banner.collection
+  description: 'List banner'
+  parent: system.admin_structure
+  weight: 100

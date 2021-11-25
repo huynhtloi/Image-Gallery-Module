@@ -1,0 +1,15 @@
+entity.banner.item:
+  route_name: entity.banner.canonical
+  base_route: entity.banner.canonical
+  title: 'View'
+
+entity.banner.edit_form:
+  route_name: entity.banner.edit_form
+  base_route: entity.banner.canonical
+  title: 'Edit'
+
+entity.banner.delete_form:
+  route_name: entity.banner.delete_form
+  base_route: entity.banner.canonical
+  title: Delete
+  weight: 10

@@ -1,0 +1,21 @@
+<?php
+/**
+* Implements hook_theme().
+*/
+function image_gallery_theme($existing, $type, $theme, $path): array
+{
+  return [
+    'image_gallery_secondary_menu' => [],
+    'image_gallery_primary_menu' => [],
+    'image_gallery_header' => [],
+    'image_gallery_sidebar_first' => [],
+    'image_gallery_sidebar_second' => [],
+    'image_gallery_sidebar_second_link' => [],
+    'image_gallery_banner' => [
+      'variables' => ['banners' => []],
+    ],
+    'image_gallery_thumbnail_style' => [
+      'variables' => ['height' => NULL, 'url' => NULL, 'overridden' => FALSE],
+    ],
+  ];
+}

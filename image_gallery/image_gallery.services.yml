@@ -1,0 +1,7 @@
+services:
+  image_gallery.custom_header:
+    class: Drupal\image_gallery\Service\CustomHeader
+    arguments: ['@config.factory']
+  image_gallery.custom_body:
+    class: Drupal\image_gallery\Service\CustomBody
+    arguments: [ '@config.factory' ]

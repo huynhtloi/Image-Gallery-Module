@@ -1,0 +1,14 @@
+image_gallery.banner:
+  path: '/banner'
+  defaults:
+    _controller: 'Drupal\image_gallery\Controller\BannerGalleryController::content'
+  requirements:
+    _permission: 'access content'
+
+image_gallery.max_banner_form:
+  path: '/admin/structure/banner/max-banner-configuration'
+  defaults:
+    _title: 'Max banner image configuration'
+    _form: 'Drupal\image_gallery\Form\MaxBannerForm'
+  requirements:
+    _permission: 'administer site configuration'

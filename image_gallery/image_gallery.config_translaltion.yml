@@ -1,0 +1,5 @@
+image_gallery.admin.config:
+  title: 'Image gallery module'
+  base_route_name: image_gallery.admin.config
+  names:
+    - image_gallery.custom_max_banner_image

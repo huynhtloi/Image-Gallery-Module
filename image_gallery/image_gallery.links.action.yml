@@ -1,0 +1,14 @@
+entity.banner.add_form:
+  route_name: entity.banner.add_form
+  title: 'Add Banner'
+  appears_on:
+    - entity.banner.collection
+
+entity.banner.max_banner_configuration:
+  route_name: image_gallery.max_banner_form
+  title: 'Max banner image configuration'
+  appears_on:
+    - entity.banner.collection
+
+entity.banner.clear_all_cache:
+  route_name: image_gallery.max_banner_form

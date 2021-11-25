@@ -1,0 +1,7 @@
+image_gallery.custom_max_banner_image:
+  type: config_object
+  label: 'Module settings'
+  mapping:
+    max_banner_image:
+      type: integer
+      label: 'The maximum number of image shown'
