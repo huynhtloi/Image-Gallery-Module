@@ -10,3 +10,9 @@ The Image Gallery module that give you the ability:
 * Support responsive.
 
 <img src="image/background.png" alt="Drupal 9 - Image Gallery Module">
+
+<img src="image/UI_LIST.png" alt="Drupal 9 - Image Gallery Module">
+
+<img src="image/ADD_BANNER.png" alt="Drupal 9 - Image Gallery Module">
+
+<img src="image/MAX_BANNER_CONFIG.png" alt="Drupal 9 - Image Gallery Module">
